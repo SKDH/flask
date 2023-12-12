@@ -29,6 +29,6 @@ jobs:
     - name: 'Deploy to Azure Web App1'
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'cdgithubaction1'
+        app-name: 'cdgithubaction21'
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
         images: 'skdh/flask:${{ github.sha }}'
